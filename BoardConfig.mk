@@ -23,7 +23,6 @@ TARGET_USE_SDCLANG := true
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := E6533,E6553,sumire,sumire_dsds
-TARGET_KERNEL_CONFIG := kitakami_sumire_defconfig
 
 # Audio
 BOARD_HAVE_BCM_FM := true
