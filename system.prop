@@ -98,17 +98,8 @@ ro.telephony.call_ring.multiple=false
 ro.use_data_netmgrd=true
 ro.data.large_tcp_window_size=true
 ro.ril.telephony.mqanelements=5
+ro.telephony.default_network=9
 DEVICE_PROVISIONED=1
-
-# IMS
-persist.ims.vcel_rtcp_report=5
-persist.ims.disableUserAgent=1
-persist.radio.calls.on.ims=1
-persist.radio.jbims=1
-persist.radio.ROTATION_ENABLE=1
-persist.radio.VT_ENABLE=1
-persist.radio.VT_HYBRID_ENABLE=1
-persist.radio.VT_USE_MDM_TIME=0
 
 # Sensors
 ro.sony.sensors.wu=true
@@ -134,8 +125,8 @@ wifi.interface=wlan0
 # Semc props
 ro.semc.content.number=PA4
 ro.semc.ms_type_id=PM-0796-BV
-ro.semc.product.device=E66
-ro.semc.product.model=E6683
+ro.semc.product.device=E65
+ro.semc.product.model=E6653
 ro.semc.product.name=Xperia Z5
 ro.semc.version.fs=GENERIC
 ro.semc.version.fs_revision=32.3.A.0.376

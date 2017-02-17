@@ -21,18 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from sumire device
 $(call inherit-product, device/sony/sumire/device.mk)
 
-# DualSim
-TARGET_KERNEL_CONFIG := kitakami_sumire_dsds_defconfig
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.multisim.config=dsds \
-    persist.radio.multisim.config=dsds \
-	ro.telephony.default_network=9,1
-
-
 # Set those variables here to overwrite the inherited values.
 PRODUCT_BRAND := Sony
-PRODUCT_NAME := dsds_sumire
+PRODUCT_NAME := full_sumire
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_DEVICE := sumire
 PRODUCT_MODEL := Xperia Z5

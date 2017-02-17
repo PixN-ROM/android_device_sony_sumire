@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/sony/sumire/dsds_sumire.mk)
+$(call inherit-product, device/sony/sumire/full_sumire.mk)
 
 # Inherit some common CM stuff
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
