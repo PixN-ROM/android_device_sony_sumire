@@ -2,3 +2,7 @@
 GAPPS_VARIANT := pico
 PRODUCT_PACKAGES += Chrome Keep Maps
 $(call inherit-product, vendor/google/build/opengapps-packages.mk)
+
+# Substratum OMS themes
+PRODUCT_PACKAGES += \
+    masquerade
